@@ -1,11 +1,12 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: "bootstrap-icons";
 }
 
 body {
@@ -17,4 +18,23 @@ body {
 .imageCard{
   max-width: 100%;
   aspect-ratio: 1/1;
+}
+
+.hover-effect{
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hover-effect:hover{
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+a{
+  text-decoration: none !important;
+}
+.navbar-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* light shadow */
 }

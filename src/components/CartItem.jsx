@@ -14,7 +14,7 @@ const CartItem = (item) => {
 
   return <div>
     <div className="col mb-4">
-      <div className="card" style={{ width: '300px'}} >
+      <div className="card hover-effect h-100">
       <div className="view overlay">
         <img src={item.item.image} className="card-img-top imageCard p-4"/>
       </div>

@@ -70,7 +70,7 @@ const Product = ({ post }) => {
 
   return (
     <div className="col mb-4">
-      <div className="card" style={{ width: '300px'}}>
+      <div className="card hover-effect h-100">
         <div className="view overlay">
         <img src={post.image} className="card-img-top imageCard p-4" alt={post.title} />
         </div>
@@ -85,7 +85,7 @@ const Product = ({ post }) => {
             </button>
           ) : (
             <button className="btn btn-primary" onClick={addToCart}>
-              Add Item
+              Add to cart
             </button>
           )}
         </div>

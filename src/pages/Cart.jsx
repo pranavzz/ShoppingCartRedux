@@ -65,12 +65,12 @@ const Cart = () => {
         </div>
       ):
       (
-        <div>
-        <p>Cart is empty!</p>
-        <Link to={"/"}>
-        <button>Shop Now</button>
-        </Link>
-        </div> 
+        <div className="d-flex flex-column justify-content-center align-items-center min-vh-100">
+            <p className="mb-4">Cart is empty!</p>
+            <Link to="/">
+                <button className="btn btn-primary">Shop Now</button>
+            </Link>
+        </div>
       )
     }
   </div>;
