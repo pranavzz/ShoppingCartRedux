@@ -30,8 +30,6 @@ const Footer = () => {
   </footer>
   {/* Footer */}
 </section>
-
-      
     </div>
   )
 }
